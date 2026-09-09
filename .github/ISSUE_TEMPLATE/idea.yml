@@ -1,0 +1,17 @@
+name: 功能建议
+description: 希望小黑在什么场景下帮上忙？
+title: "[建议] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 想解决什么问题？
+      description: 说说你在什么场景下需要这个功能
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望小黑怎么做？
+    validations:
+      required: true

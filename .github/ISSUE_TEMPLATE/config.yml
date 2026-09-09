@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 先看看常见问题
+    url: https://github.com/lanziyi36-eng/luo-xiaohei-desktop/blob/main/docs/FAQ.md
+    about: 下载、系统支持、提醒、备份与更新

@@ -1,0 +1,47 @@
+name: 使用问题
+description: 安装、运行或某个功能没有按预期工作
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "感谢反馈。请先查看常见问题；这里的内容公开可见，请勿上传个人数据目录，并遮住截图中的隐私信息。"
+  - type: input
+    id: version
+    attributes:
+      label: 小黑版本
+      placeholder: "例如：0.2.37"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本与系统类型
+      description: 可在 Windows 设置的系统信息中查看
+      placeholder: "例如：Windows 11，x64"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 出现问题的位置
+      options:
+        - 安装、更新或启动
+        - 桌宠、菜单或动画
+        - 随手记与待办
+        - 课表、作息或图片识别
+        - 提醒或演示模式
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与实际结果
+      description: 从打开哪个窗口开始，到哪里出现问题？原本希望发生什么？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 错误提示或截图（可选）
+      description: 请遮住姓名、课程、待办内容等个人信息
