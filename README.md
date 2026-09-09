@@ -22,7 +22,7 @@
 
 课表可以从图片导入，识别后核对再保存；上课时间、课间和特殊间隔都能自己设置。
 
-![小黑与整周课程表，图中为示例课程](docs/images/desktop-timetable.png)
+https://github.com/user-attachments/assets/2fe00830-1169-4997-b257-9b9baec951e6
 
 ## 三步开始
 
